@@ -1,4 +1,4 @@
-import Exponent, { Components } from 'exponent';
+import Expo, { Components } from 'expo';
 import React from 'react';
 import { Provider } from 'react-redux';
 import EStyleSheet from 'react-native-extended-stylesheet';
@@ -53,4 +53,4 @@ class App extends React.Component {
   }
 }
 
-Exponent.registerRootComponent(App);
+Expo.registerRootComponent(App);
