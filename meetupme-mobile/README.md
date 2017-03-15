@@ -8,3 +8,4 @@
 - Update react-navigation -> beta 7
 - install exp global
 - Bug animation remove it homenavigator
+- Moved the fontAssets
