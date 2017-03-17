@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
-import { Button, Icon } from 'native-base';
+import { View, TouchableOpacity } from 'react-native';
+import { FormLabel, FormInput, Button } from 'react-native-elements';
+import { MaterialIcons } from '@expo/vector-icons';
 
 import Colors from '../../../constants/Colors';
+import styles from './styles/CreateMeetupScreen';
 
 class CreateMeetupScreen extends Component {
   static navigationOptions = {
@@ -13,24 +15,49 @@ class CreateMeetupScreen extends Component {
       const titleStyle = { color: Colors.whiteColor };
 
       const left = (
-        <Button transparent onPress={() => goBack()}>
-          <Icon
-            name="md-close"
-            style={{
-              fontSize: 30,
-              color: Colors.whiteColor
-            }}
+        <TouchableOpacity style={styles.iconClose} onPress={() => goBack()}>
+          <MaterialIcons
+            size={30}
+            name="close"
+            color="#fff"
           />
-        </Button>
+        </TouchableOpacity>
       );
 
       return { style, titleStyle, left };
     }
   }
+
+  state = {
+    descriptionHeight: 40
+  }
+
   render() {
     return (
-      <View>
-        <Text>Hello world</Text>
+      <View style={styles.root}>
+        <View style={styles.container}>
+          <View style={styles.item}>
+            <FormLabel fontFamily="montserrat">Title</FormLabel>
+            <FormInput
+              selectionColor={Colors.redColor}
+            />
+          </View>
+          <View style={styles.item}>
+            <FormLabel fontFamily="montserrat">Description</FormLabel>
+            <FormInput
+              multiline
+              selectionColor={Colors.redColor}
+            />
+          </View>
+          <View style={styles.buttonCreate}>
+            <Button
+              backgroundColor={Colors.blackBlueColor}
+              title="Create Meetup"
+              raised
+              fontFamily="montserrat"
+            />
+          </View>
+        </View>
       </View>
     );
   }

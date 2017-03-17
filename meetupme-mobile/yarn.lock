@@ -2226,6 +2226,10 @@ image-size@^0.3.5:
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.3.5.tgz#83240eab2fb5b00b04aab8c74b0471e9cba7ad8c"
 
+immutable@^3.8.1:
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.1.tgz#200807f11ab0f72710ea485542de088075f68cd2"
+
 immutable@~3.7.6:
   version "3.7.6"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.7.6.tgz#13b4d3cb12befa15482a26fe1b2ebae640071e4b"
@@ -3191,6 +3195,13 @@ react-native-easy-grid@0.1.7:
   dependencies:
     lodash "^4.11.1"
 
+react-native-elements@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/react-native-elements/-/react-native-elements-0.10.0.tgz#ea4e6bca0a0888d9d5e524f3f1eee63cec4e7f58"
+  dependencies:
+    react-native-side-menu "^0.20.1"
+    react-native-tab-navigator "^0.3.3"
+
 react-native-extended-stylesheet@^0.3.1:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/react-native-extended-stylesheet/-/react-native-extended-stylesheet-0.3.2.tgz#1cfcb2652bbe384d1932131ae8598e5da99a56cc"
@@ -3220,12 +3231,22 @@ react-native-scrollable-tab-view@^0.7.1:
   dependencies:
     react-timer-mixin "^0.13.3"
 
+react-native-side-menu@^0.20.1:
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/react-native-side-menu/-/react-native-side-menu-0.20.1.tgz#df21b4bb9d8a1aa3bae53d74ddf8a739eb59bfc5"
+
 "react-native-svg@https://github.com/exponent/react-native-svg/archive/4.4.1.tar.gz":
   version "4.4.1"
   resolved "https://github.com/exponent/react-native-svg/archive/4.4.1.tar.gz#fb1719b0d15fabc1b5c3aca8a94b1629409c1d67"
   dependencies:
     color "^0.11.1"
     lodash "^4.0.0"
+
+react-native-tab-navigator@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/react-native-tab-navigator/-/react-native-tab-navigator-0.3.3.tgz#b222bad21fbe773c8d28f9a0de30ce62b08724d3"
+  dependencies:
+    immutable "^3.8.1"
 
 react-native-tab-view@^0.0.57:
   version "0.0.57"
