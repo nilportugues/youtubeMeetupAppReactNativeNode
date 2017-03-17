@@ -9,3 +9,9 @@
 - install exp global
 - Bug animation remove it homenavigator
 - Moved the fontAssets
+- Install React-Elements and why I moved from nativebase
+- Change icon in the navbar
+- Add https://www.npmjs.com/package/react-native-modal-datetime-picker
+- Add moment
+- Create a meetup
+- See the result :)
