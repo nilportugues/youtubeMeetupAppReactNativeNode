@@ -13,8 +13,10 @@ const styles = EStyleSheet.create({
     marginVertical: '2%'
   },
   buttonCreate: {
-    flex: 1,
-    marginVertical: '10%'
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: '10%'
   },
   iconClose: {
     marginLeft: '3%'

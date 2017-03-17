@@ -2773,7 +2773,7 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-moment@2.x.x:
+moment@2.x.x, moment@^2.15.0, moment@^2.17.1:
   version "2.17.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
 
@@ -3158,6 +3158,16 @@ react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
+react-native-animatable@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-animatable/-/react-native-animatable-0.6.1.tgz#bd85023d42ad0ceb3cc98d7b490f7d6dd6ba11b0"
+
+react-native-animated-modal@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-animated-modal/-/react-native-animated-modal-1.0.2.tgz#116d860c59c3a18168995de151c40bb78d9cf535"
+  dependencies:
+    react-native-animatable "^0.6.1"
+
 react-native-debugger-open@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/react-native-debugger-open/-/react-native-debugger-open-0.3.2.tgz#ac90d33e97ab9aa9f815eb8c9f6f9efb4a09a733"
@@ -3218,6 +3228,13 @@ react-native-keyboard-aware-scroll-view@0.2.7:
 "react-native-maps@https://github.com/exponent/react-native-maps/archive/v0.12.2-exp.1.tar.gz":
   version "0.12.2"
   resolved "https://github.com/exponent/react-native-maps/archive/v0.12.2-exp.1.tar.gz#1984bfe5a8a341dd3b44ad565cfcd1b25a5c2b03"
+
+react-native-modal-datetime-picker@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-modal-datetime-picker/-/react-native-modal-datetime-picker-4.1.0.tgz#1d379cd9be80929ccaa3994b7b96181161d583c0"
+  dependencies:
+    moment "^2.15.0"
+    react-native-animated-modal "^1.0.1"
 
 react-native-safe-module@^1.1.0:
   version "1.1.1"
